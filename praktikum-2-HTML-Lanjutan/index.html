@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>HTML Lanjutan</title>
+    </head>
+    <body>
+         <nav>
+            <a href="index.html">beranda</a>
+            <a href="halaman 3.html">biodata mahasiswa</a>
+            <a href="halaman 2.html">portal mahasiswa</a>
+        </nav>
+        <hr>
+
+        <h1>Data mahasiswa</h1>
+        <table border="1">
+            <tr>
+                <th>NIM</th>
+                <th>Nama</th>
+                <th>Program study</th>
+            </tr>
+            <tr>
+                <td>312510342</td>
+                <td>Rizky</td>
+                <td>Teknik Informatika</td>
+            </tr>
+            <tr>
+                <td>312510343</td>
+                <td>Aulia</td>
+                <td>Sistem Informasi</td>
+            </tr>
+        </table>
+    </body>
+</html>
+
+
+<table border="1">
+    <caption>Nilai Praktikum</caption>
+    <thead>
+        <tr>
+            <th>No</th>
+            <th>Nama</th>
+            <th>Nilai</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Rizky</td>
+            <td>85</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Aulia</td>
+            <td>90</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="2">Rata-rata</td>
+            <td>87.5</td>
+        </tr>
+    </tfoot>
+</table>
+
+
+<h1>Form Registrasi Mahasiswa</h1>
+<form>
+    <label for="nama">nama lengkap</label><br>
+    <input type="text" id="nama" name="nama"><br><br>
+    <label for="email">EMAIL</label><br>
+    <input type="email" id="email" name="email"><br><br>
+    <label for="password">PASSWORD</label><br>
+    <input type="password" id="password" name="password"><br><br>
+    <label for="tanggal">TANGGAL LAHIR</label><br>
+    <input type="date" id="tanggal" name="tanggal"><br><br>
+    <button type="submit" value="Daftar">Daftar</button>
+    <button type="reset">Reset</button>
+</form>
+
+
+<h2>Jenis Kelamin</h2>
+<input type="radio" id="laki" name="jk" value="L">
+<label for="laki">Laki-laki</label><br>
+<input type="radio" id="perempuan" name="jk" value="P">
+<label for="perempuan">Perempuan</label><br><br>
+
+<h2>keahlian</h2>
+<input type="checkbox" id="HTML" name="keahlian" value="HTML">
+<label for="HTML">HTML</label><br>
+<input type="checkbox" id="CSS" name="keahlian" value="CSS">
+<label for="CSS">CSS</label><br>
+<input type="checkbox" id="js" name="keahlian" value="JavaScript">
+<label for="JavaScript">JavaScript</label><br><br>
+
+
+<label for="prodi">Program Study</label>
+<select id="prodi" name="prodi">
+    <option value="">-- pilih prodi --</option>
+    <option value="ti">Teknik Informatika</option>
+    <option value="si">Sistem Informasi</option>
+    <option value="tk">Teknik Komputer</option>
+</select>
+
+<br><br>
+<label for="alamat">Alamat</label><br>
+<textarea id="alamat" name="alamat" rows="5" cols="40"></textarea>
+
+
+<form>
+    <label for="nama">Nama</label>
+    <input type="text" id="nama" name="nama" required minlength="3">
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="umur">UMUR</label>
+    <input type="number" id="umur" name="umur" required min="17" max="60" required>
+
+    <button type="submit">kirim</button>
+</form>
+
+
+
+
+
+  
+

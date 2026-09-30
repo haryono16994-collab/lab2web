@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>biodata mahasiswa</title>
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">data mahasiswa</a>
+            <a href="halaman 3.html">biodata mahasiswa</a>
+            <a href="halaman 2.html">portal mahasiswa</a>
+        </nav>
+        <hr>
+        
+        <header>
+            <h1>biodata mahasiswa</h1>
+        </header>
+        
+        <main>
+            <section id="biodata">
+                <h2>data mahasiswa</h2>
+                <table border="1">
+                    <tr>
+                        <th>data</th>
+                        <th>keterangan</th>
+                    </tr>
+                    <tr>
+                        <td>NIM</td>
+                        <td>312510342</td>
+                    </tr>
+                    <tr>
+                        <td>NAMA</td>
+                        <td>NAMA MAHASISWA</td>
+                    </tr>
+                    <tr>
+                        <td>PROGRAM STUDY</td>
+                        <td>TEKNIK INFORMATIKA</td>
+                    </tr>
+            </section>
+            <section id="form">
+                <h2>form biodata</h2>
+                <form>
+                    <label for="nama">nama lengkap</label><br>
+                    <input type="text" id="nama" name="nama"><br><br>
+                    <label for="email">EMAIL</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <label for="prodi">program studi</label><br>
+                    <select id="prodi" name="prodi" required>
+                        <option value="">-- pilih prodi --</option>
+                        <option value="ti">Teknik Informatika</option>
+                        <option value="si">Sistem Informasi</option>
+                        <option value="tk">Teknik Komputer</option>
+                    </select>
+                    <br><br>
+                    <label for="alamat">ALAMAT</label><br>
+                    <textarea id="alamat" name="alamat"></textarea>
+                    <br><br>
+                    <button type="submit">simpan</button>
+                    <button type="reset">Reset</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2026 teknik informatika</p>
+    </body>
+</html>
